@@ -15,7 +15,7 @@
 client_id = "REPLACE_WITH_YOUR_NEW_APP_CLIENT_ID"
 name = "Vellore Reviews"
 handle = "vellore-reviews"
-application_url = "https://vellore.vercel.app"
+application_url = "https://vellore-final.vercel.app"
 embedded = true
 
 [access_scopes]
@@ -24,9 +24,9 @@ scopes = "write_products,read_products"
 
 [auth]
 redirect_urls = [
-  "https://vellore.vercel.app/auth/callback",
-  "https://vellore.vercel.app/auth/shopify/callback",
-  "https://vellore.vercel.app/api/auth/callback"
+  "https://vellore-final.vercel.app/auth/callback",
+  "https://vellore-final.vercel.app/auth/shopify/callback",
+  "https://vellore-final.vercel.app/api/auth/callback"
 ]
 
 [webhooks]
@@ -41,9 +41,9 @@ api_version = "2024-10"
   uri = "/webhooks/app/scopes_update"
 
   [webhooks.privacy_compliance]
-  customer_data_request_url = "https://vellore.vercel.app/webhooks/customers/data_request"
-  customer_deletion_url     = "https://vellore.vercel.app/webhooks/customers/redact"
-  shop_deletion_url         = "https://vellore.vercel.app/webhooks/shop/redact"
+  customer_data_request_url = "https://vellore-final.vercel.app/webhooks/customers/data_request"
+  customer_deletion_url     = "https://vellore-final.vercel.app/webhooks/customers/redact"
+  shop_deletion_url         = "https://vellore-final.vercel.app/webhooks/shop/redact"
 
 [pos]
 embedded = false

@@ -8,7 +8,7 @@
   if (!cfg || !cfg.apiBase) return;
 
   var apiBase = (cfg.apiBase || "").replace(/\/$/, "");
-  if (!apiBase || /reviews-app-shopify\.vercel\.app/.test(apiBase)) apiBase = "https://vellore.vercel.app";
+  if (!apiBase || /reviews-app-shopify\.vercel\.app/.test(apiBase)) apiBase = "https://vellore-final.vercel.app";
   var isProductPage = Boolean(cfg.productId && cfg.productHandle);
   // We prefer handle since CSV imports use handle; fall back to id.
   var productKey = cfg.productHandle || cfg.productId;
@@ -150,7 +150,7 @@
   // -------- Grid behaviour --------
   function bindGridLogic(root) {
     var apiBase = (root.dataset.api || "").replace(/\/$/, "");
-    if (!apiBase || /reviews-app-shopify\.vercel\.app/.test(apiBase)) apiBase = "https://vellore.vercel.app";
+    if (!apiBase || /reviews-app-shopify\.vercel\.app/.test(apiBase)) apiBase = "https://vellore-final.vercel.app";
     var shop = root.dataset.shop;
     var productId = root.dataset.productId;
     var isStoreMode = root.dataset.store === "true";
