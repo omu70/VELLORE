@@ -34,3 +34,9 @@ HistoryLifestyle_*.docx
 history_lifestyle_*.html
 dizigroww_ph_landing.html
 evolabs-integrations-handoff-*.md
+
+# Old review data — uploaded via the app, not committed to the repo
+reviews-lovely-lady.csv
+review-csv-parts/
+*.csv
+VELLORE_GO_LIVE_RUNBOOK.md
